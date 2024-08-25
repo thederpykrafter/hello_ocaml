@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github thederpykrafter/hello_ocaml))
 
-(authors "Author Name")
+(authors "thederpykrafter")
 
-(maintainers "Maintainer Name")
+(maintainers "thederpykrafter")
 
 (license LICENSE)
 
@@ -17,10 +17,10 @@
 
 (package
  (name hello_ocaml)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Learning Ocaml")
+ (description "A simple project to learn ocaml")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (topics "Learning" "Experimenting" your project)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
