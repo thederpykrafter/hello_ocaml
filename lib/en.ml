@@ -1,1 +1,2 @@
-  let v = "Hello, thederpykrafter!"
+let hello = "Hello"
+let v = hello ^ ", thederpykrafter!"
